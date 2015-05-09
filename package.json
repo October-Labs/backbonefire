@@ -25,6 +25,7 @@
   "main": "dist/backbonefire.js",
   "files": [
     "dist/**",
+    "src/**",
     "LICENSE",
     "README.md",
     "package.json"
@@ -64,6 +65,7 @@
   },
   "scripts": {
     "test": "grunt test",
-    "travis": "grunt"
+    "travis": "grunt",
+    "install": "grunt"
   }
 }
