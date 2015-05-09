@@ -67,6 +67,6 @@
   "scripts": {
     "test": "grunt test",
     "travis": "grunt",
-    "install": "grunt"
+    "install": "npm install && grunt"
   }
 }
