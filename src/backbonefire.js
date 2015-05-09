@@ -7,6 +7,7 @@
  * https://github.com/firebase/backbonefire/
  * License: MIT
  */
+var window = {}; window.Backbone = require('backbone'); window._ = require('underscore');
 
 (function(_, Backbone) {
   'use strict';
