@@ -28,6 +28,7 @@
     "src/**",
     "LICENSE",
     "README.md",
+    "Gruntfile.js",
     "package.json"
   ],
   "dependencies": {
