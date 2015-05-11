@@ -14,6 +14,8 @@ if (typeof window === 'undefined') {
 window.Backbone = require('backbone');
 window._ = require('underscore');
 
+var Firebase = require('firebase');
+
 (function(_, Backbone) {
   'use strict';
 

@@ -32,7 +32,7 @@ module.exports = function(grunt) {
         'eqnull'  : true,
         'globals' : {
           'Backbone' : false,
-          'Firebase' : false,
+          'Firebase' : true,
           'window'   : true,
           'require'  : true
         },
