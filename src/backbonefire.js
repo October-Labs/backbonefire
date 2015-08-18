@@ -8,15 +8,7 @@
  * License: MIT
  */
 
-if (typeof window === 'undefined') {
-  window = {};
-}
-window.Backbone = require('backbone');
-window._ = require('underscore');
-
-var Firebase = require('firebase');
-
-(function(_, Backbone) {
+(function(_, Backbone, Firebase) {
   'use strict';
 
   Backbone.Firebase = {};
@@ -872,4 +864,4 @@ var Firebase = require('firebase');
 
   });
 
-})(window._, window.Backbone);
+})(require('underscore'), require('backbone'), require('firebase'));
