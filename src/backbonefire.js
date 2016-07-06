@@ -21,7 +21,7 @@
    * helper can be removed.
    */
   Backbone.Firebase._getKey = function(refOrSnapshot) {
-    return (typeof refOrSnapshot.key === 'function') ? refOrSnapshot.key() : refOrSnapshot.name();
+    return refOrSnapshot.key;
   };
 
   /**
